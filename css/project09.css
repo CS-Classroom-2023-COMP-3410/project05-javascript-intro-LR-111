@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  #controls label {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  #controls select, #controls input, #controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  #commentary {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+    height: 300px;
+    border: 1px solid #ccc;
+  }
+  
+  .bar {
+    width: 20px;
+    margin: 2px;
+    background: #007bff;
+    transition: background 0.2s ease;
+  }
+  
+  .bar.selected {
+    background: #ffcc00;
+  }
+  
+  .bar.sorted {
+    background: #28a745;
+  }
+  

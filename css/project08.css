@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #game-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #progress-bar {
+    background: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #progress-bar h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  #progress-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  #progress-list li {
+    padding: 5px 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  #progress-list li.current {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #story {
+    background: #fdfdfd;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .choice-button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .choice-button:hover {
+    background: #0056b3;
+  }
+  
+  #progress-controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

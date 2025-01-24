@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Calculator</title>
+  <link rel="stylesheet" href="css/project07.css">
+</head>
+<body>
+  <h1>Virtual Calculator</h1>
+  <div id="calculator">
+    <div id="display">
+      <div id="history"></div>
+      <div id="result">0</div>
+    </div>
+    <div id="buttons">
+      <!-- Memory Buttons -->
+      <button class="button" data-action="memory-clear">MC</button>
+      <button class="button" data-action="memory-recall">MR</button>
+      <button class="button" data-action="memory-add">M+</button>
+      <button class="button" data-action="memory-subtract">M-</button>
+      <!-- Function Buttons -->
+      <button class="button" data-action="clear">C</button>
+      <button class="button" data-action="sqrt">√</button>
+      <button class="button" data-action="%">%</button>
+      <button class="button" data-action="/">÷</button>
+      <!-- Number and Operator Buttons -->
+      <button class="button" data-action="7">7</button>
+      <button class="button" data-action="8">8</button>
+      <button class="button" data-action="9">9</button>
+      <button class="button" data-action="*">×</button>
+      <button class="button" data-action="4">4</button>
+      <button class="button" data-action="5">5</button>
+      <button class="button" data-action="6">6</button>
+      <button class="button" data-action="-">−</button>
+      <button class="button" data-action="1">1</button>
+      <button class="button" data-action="2">2</button>
+      <button class="button" data-action="3">3</button>
+      <button class="button" data-action="+">+</button>
+      <!-- Decimal and Equals -->
+      <button class="button" data-action="0" style="grid-column: span 2;">0</button>
+      <button class="button" data-action=".">.</button>
+      <button class="button" data-action="=">=</button>
+    </div>
+  </div>
+  <script src="js/project07.js"></script>
+</body>
+</html>
